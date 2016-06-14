@@ -13,6 +13,7 @@ This is a simple thing, but hopfully it'll show
 there is a good base to start from.  It is not complete
 it is not at all anthing more then a sample app.
 
+side note, whiteboard formal was not fault tolerant either
 function foo(a, b){
   _a = (a<b?a:b);
   _b = (a<b?b:a);
