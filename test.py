@@ -13,6 +13,17 @@ This is a simple thing, but hopfully it'll show
 there is a good base to start from.  It is not complete
 it is not at all anthing more then a sample app.
 
+function foo(a, b){
+  _a = (a<b?a:b);
+  _b = (a<b?b:a);
+  for(i=_a;i>0;i--){
+    if(_a%i==0 && _b%i==0){
+      console.log(i);return;
+    }
+  }
+}foo(25,10)
+
+
 Thank you - jeremyBass
 """
 import sys
